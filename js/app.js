@@ -27,17 +27,17 @@ var routes = [
 },
 {
     path: '/newrecord_page/',
-    url: './pages/newrecord_page.html?r=57427',
+    url: './pages/newrecord_page.html?r=24054',
     name: 'newrecord_page',
 },
 {
     path: '/song_detail/',
-    url: './pages/song_detail.html?r=25171',
+    url: './pages/song_detail.html?r=80799',
     name: 'song_detail',
 },
 {
     path: '/song_edit/',
-    url: './pages/song_edit.html?r=73809',
+    url: './pages/song_edit.html?r=44489',
     name: 'song_edit',
 },
 {

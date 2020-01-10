@@ -23,7 +23,7 @@
           <div class="embed-responsive-item" id="img-obj-28888" data-firebase-field="iconapp" style="background-image:url({{iconapp}});">
           </div>
         </div>
-        <div id="obj-11537" class="block custom-block text-center mt-3 active-state">
+        <div id="obj-11537" class="block custom-block text-center mt-3">
           <div id="obj-40027" class="firebase-field font-weight-bold mb-1" data-firebase-field="nameapp">
             <p id="p-obj-40027">{{nameapp}}
             </p> 
@@ -50,7 +50,11 @@
           </div>
           <h2 id="obj-92886" class="h2 text-left">Dev OTA Link
           </h2>
-          <a id="obj-74136" class="col button button-raised button-round button-fill external" href=data-firebase-field="linkdev" target="_blank" rel="noopener" data-rel="external">linkdev
+          <div id="obj-20015" class="firebase-field text-nowrap">
+            <a class="text-link link external" target="_blank" rel="noopener" data-rel="external" data-firebase-field="linkdev" href="{{linkdev}}">{{linkdev}}
+            </a>
+          </div>
+          <a id="obj-74136" class="col button button-raised button-round button-fill external" data-firebase-field="linkdev" href="{{linkdev}}" target="_blank" rel="noopener" data-rel="external">linkdev
           </a>
         </div>
       </form>
