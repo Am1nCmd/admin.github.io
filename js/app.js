@@ -12,7 +12,7 @@ var mediaRoot='./db/dbassets/';
 var gtimeOut=6000;
 var gCrossDomain=false;
 var gAuthMode=0;
-var gHomeScreen="PGRpdiBjbGFzcz0icG9wdXAiPjxkaXYgY2xhc3M9ImJsb2NrIGN1c3RvbS1ibG9jayB0ZXh0LWNlbnRlciI+PGgyPk11c2ljIEFwcCBCYWNrT2ZmaWNlPC9oMj48aDI+PC9oMj48cCBjbGFzcz0ibWItNSIgc3R5bGU9ImZvbnQtc2l6ZToxN3B4OyIgPjwvcD48L2Rpdj48L2Rpdj4=";
+var gHomeScreen="PGRpdiBjbGFzcz0icG9wdXAiPjxkaXYgY2xhc3M9ImJsb2NrIGN1c3RvbS1ibG9jayB0ZXh0LWNlbnRlciI+PGgyPkFtU2lnbiBBRE1JTjwvaDI+PGgyPjwvaDI+PHAgY2xhc3M9Im1iLTUiIHN0eWxlPSJmb250LXNpemU6MTdweDsiID48L3A+PC9kaXY+PC9kaXY+";
 var dataTheme=null;
 var dataCustomColor='rgb(33,150,243)';
 var dataFill=false;
@@ -27,17 +27,17 @@ var routes = [
 },
 {
     path: '/newrecord_page/',
-    url: './pages/newrecord_page.html?r=97624',
+    url: './pages/newrecord_page.html?r=19987',
     name: 'newrecord_page',
 },
 {
     path: '/song_detail/',
-    url: './pages/song_detail.html?r=85633',
+    url: './pages/song_detail.html?r=76731',
     name: 'song_detail',
 },
 {
     path: '/song_edit/',
-    url: './pages/song_edit.html?r=45270',
+    url: './pages/song_edit.html?r=40422',
     name: 'song_edit',
 },
 {
@@ -49,12 +49,12 @@ var routes = [
 
 var app = new Framework7({
    "version": "1.0.0",
-    "id": "com.thorium.music app backoffice",
+    "id": "com.thorium.amsign admin",
     "root": "#app",
     "theme": "auto",
     "language": "en",
     "routes": routes,
-    "name": "Music App BackOffice",
+    "name": "AmSign ADMIN",
     "initOnDeviceReady": true,
     "init": true,
     "iosTranslucentBars": false,
@@ -481,7 +481,7 @@ function backToPreviousPage() {
 function ShowNotification (m) {
 	var notificationFull = app.notification.create({
 		icon: '<i class="f7-icons text-info">alert</i>',
-		title: 'Music App BackOffice',
+		title: 'AmSign ADMIN',
 		titleRightText: '',
 		subtitle: '',
 		text: m,

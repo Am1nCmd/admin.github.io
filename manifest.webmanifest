@@ -1,11 +1,11 @@
 {
-"short_name": "BackOffice",
-"name": "Music App BackOffice",
+"short_name": "Backend",
+"name": "AmSign ADMIN",
 "display": "standalone",
 "orientation": "any",
 "theme_color": "",
 "background_color": "rgb(255,255,255)",
-"description": "Music App BackOffice",
+"description": "AmSign ADMIN",
 "dir": "ltr",
 "lang": "en",
 "icons": [{

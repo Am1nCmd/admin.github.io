@@ -11,7 +11,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="format-detection" content="telephone=no">
-  <title>Music App BackOffice</title>
+  <title>AmSign ADMIN</title>
   <meta name="description" content="" />
   <meta name="Author" content="" />
   <meta name="Copyright" content="" />
@@ -23,7 +23,7 @@
   <meta property="og:description" content="" />
   <meta property="og:site_name" content="" />
   <meta name="theme-color" content="">
-  <meta name="apple-mobile-web-app-title" content="Music App BackOffice">
+  <meta name="apple-mobile-web-app-title" content="AmSign ADMIN">
 
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="msapplication-TileColor" content="">
@@ -87,60 +87,54 @@
                 </i>
               </a>
             </div>
-            <div id="title-o-43663" class="title ">My Music App
-              <span id="obj-73042" class="subtitle">Back Office
+            <div id="title-o-43663" class="title ">Admin AmS1gn
+              <span id="obj-73042" class="subtitle">Backend
               </span>
             </div>
             <div id="right-o-52276" class="right"><img id="obj-18654" src="img/defaultavatar.png" alt="..." class="img avatar rounded-circle firebase_avatar">
             </div>
             <div id="obj-55666" class="subnavbar">
               <div id="obj-96197" class="subnavbar-inner">
-                <a id="obj-63102" class="col button firebase-action-button btn-firebase-filter" role="button" data-filter-field="" data-filter-operator="==" data-filter-value="" data-order-field="song_year" data-order-way="asc" data-limit="0" data-user-data="false" data-filter-virtuallist="virtual-list-obj-11435">Sort by Year
-                </a>
-                <a id="obj-47796" class="col button firebase-action-button btn-firebase-filter" role="button" data-filter-field="song_year" data-filter-operator=">" data-filter-value="1996" data-order-field="song_year" data-order-way="asc" data-limit="0" data-user-data="false" data-filter-virtuallist="virtual-list-obj-11435">&gt;1996
-                </a>
-                <a id="obj-95964" class="col button firebase-action-button btn-firebase-filter" role="button" data-filter-field="" data-filter-operator="==" data-filter-value="" data-order-field="" data-order-way="asc" data-limit="0" data-user-data="false" data-filter-virtuallist="virtual-list-obj-11435">Reset Filter
-                </a>
+                <div id="obj-35393" class="toolbar firebase-virtual-list-searchbar">
+                  <form id="search-obj-35393" data-search-container="#virtual-list-obj-11435" data-search-item="li" class="searchbar searchbar-init">
+                    <div class="searchbar-inner">
+                      <div class="searchbar-input-wrap">
+                        <input type="search" spellcheck="false" placeholder="Search">
+                          <i class="searchbar-icon">
+                          </i>
+                          <span class="input-clear-button">
+                          </span>
+                        </div>
+                        <span class="searchbar-disable-button if-not-aurora">Cancel
+                        </span>
+                      </div>
+                    </form>
+                    <div class="searchbar-backdrop">
+                    </div> 
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div id="page-contents-o-40454" class="page-content bg-white">  
-          <div id="obj-35393" class="toolbar firebase-virtual-list-searchbar">
-            <form id="search-obj-35393" data-search-container="#virtual-list-obj-11435" data-search-item="li" class="searchbar searchbar-init">
-              <div class="searchbar-inner">
-                <div class="searchbar-input-wrap">
-                  <input type="search" spellcheck="false" placeholder="Search">
-                    <i class="searchbar-icon">
-                    </i>
-                    <span class="input-clear-button">
-                    </span>
-                  </div>
-                  <span class="searchbar-disable-button if-not-aurora">Cancel
-                  </span>
-                </div>
-              </form>
-              <div class="searchbar-backdrop">
-              </div> 
-            </div>
+          <div id="page-contents-o-40454" class="page-content bg-white">  
             <div id="obj-11435" class="firebase-virtual-list">
               <div id="virtual-list-obj-11435" class="list virtual-list searchbar-found firebase-virtual-list-content" data-collection="SongsCollection" data-filter-field="" data-filter-operator="" data-filter-value="" data-order-field="" data-order-way="asc" data-limit="0" data-user-data="false" data-detail="song_detail">
                 <div id="virtual-list-obj-11435-template" class="virtuallist-template" data-line-height="30">
                   <li id="li_obj-11435">
                     <div id="obj-26653" class="row pb-1">
                       <div id="col-26554" class="col-25 ">
-                        <div id="obj-15537" class="firebase-field firebase-img img-zoom embed-responsive embed-responsive-1by1 m-1">
+                        <div id="obj-15537" class="firebase-field m-1 firebase-img img-zoom embed-responsive embed-responsive-16by9">
                           <div class="embed-responsive-item" id="img-obj-15537" data-firebase-field="song_cover" style="background-image:url({{song_cover}});">
                           </div>
                         </div>
                       </div>
                       <div id="col-30776" class="col-75">
-                        <div id="obj-43046" class="firebase-field font-weight-bold ml-2 mt-1" data-firebase-field="song_name">
-                          <p id="p-obj-43046" class="">{{song_name}}
+                        <div id="obj-43046" class="firebase-field font-weight-bold ml-2 mt-1" data-firebase-field="nameapp">
+                          <p id="p-obj-43046">{{nameapp}}
                           </p> 
                         </div>
-                        <div id="obj-13262" class="firebase-field ml-2 mb-2" data-firebase-field="artist_name">
-                          <p id="p-obj-13262" class="">{{artist_name}}
+                        <div id="obj-13262" class="firebase-field ml-2 mb-2" data-firebase-field="version">
+                          <p id="p-obj-13262">{{version}}
                           </p> 
                         </div>
                         <div id="obj-13449" class="flexbox display-flex flex-row align-items-center flex-nowrap ml-2">
@@ -166,7 +160,7 @@
     <div class="view">
         <div class="page">
             <div class="page-content login-screen-content">
-                <div class="login-screen-title">Music App BackOffice</div>
+                <div class="login-screen-title">AmSign ADMIN</div>
                 <div class="block text-center">
                     
                     <h1 data-translate="signin">Sign In</h1>
@@ -224,7 +218,7 @@
     <div class="view">
         <div class="page">
             <div class="page-content login-screen-content">
-                <div class="login-screen-title">Music App BackOffice</div>
+                <div class="login-screen-title">AmSign ADMIN</div>
                 <div class="block text-center">
                     
                     <h1 data-translate="resetpassword">Reset Password</h1>
@@ -256,7 +250,7 @@
     <div class="view">
         <div class="page">
             <div class="page-content login-screen-content">
-                <div class="login-screen-title">Music App BackOffice</div>
+                <div class="login-screen-title">AmSign ADMIN</div>
                 <div class="block text-center">
                     
                     <h1 data-translate="register">Register</h1>
