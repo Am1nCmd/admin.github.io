@@ -13,8 +13,8 @@ var gtimeOut=6000;
 var gCrossDomain=false;
 var gAuthMode=0;
 var gHomeScreen="PGRpdiBjbGFzcz0icG9wdXAiPjxkaXYgY2xhc3M9ImJsb2NrIGN1c3RvbS1ibG9jayB0ZXh0LWNlbnRlciI+PGgyPkFtU2lnbiBBRE1JTjwvaDI+PGgyPjwvaDI+PHAgY2xhc3M9Im1iLTUiIHN0eWxlPSJmb250LXNpemU6MTdweDsiID48L3A+PC9kaXY+PC9kaXY+";
-var dataTheme=null;
-var dataCustomColor='rgb(33,150,243)';
+var dataTheme='.color-theme-red';
+var dataCustomColor=null;
 var dataFill=false;
 
 
@@ -27,17 +27,17 @@ var routes = [
 },
 {
     path: '/newrecord_page/',
-    url: './pages/newrecord_page.html?r=24054',
+    url: './pages/newrecord_page.html?r=51166',
     name: 'newrecord_page',
 },
 {
     path: '/song_detail/',
-    url: './pages/song_detail.html?r=80799',
+    url: './pages/song_detail.html?r=18910',
     name: 'song_detail',
 },
 {
     path: '/song_edit/',
-    url: './pages/song_edit.html?r=44489',
+    url: './pages/song_edit.html?r=67548',
     name: 'song_edit',
 },
 {

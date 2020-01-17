@@ -60,18 +60,18 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 
-<body>  <div id="app">
+<body>  <div id="app" class="color-theme-red">
     <div class="panel-backdrop">
     </div>
     <div id="panel-left" class="panel panel-left panel-init panel-cover" data-swipe="true">    
       <div id="left-panel-page-o-45689" class="page">        
-        <div id="left-panel-page-content" class="page-content">
+        <div id="left-panel-page-content" class="page-content bg-dark">
         </div>    
       </div>
     </div>
     <div id="panel-right" class="panel panel-right panel-init panel-cover" data-swipe="true">    
       <div id="right-panel-page-o-17655" class="page">        
-        <div id="right-panel-page-content" class="page-content">
+        <div id="right-panel-page-content" class="page-content bg-dark">
         </div>    
       </div>
     </div>
@@ -93,7 +93,7 @@
             </div>
             <div id="right-o-52276" class="right"><img id="obj-18654" src="img/defaultavatar.png" alt="..." class="img avatar rounded-circle firebase_avatar">
             </div>
-            <div id="obj-55666" class="subnavbar">
+            <div id="obj-55666" class="subnavbar bg-white">
               <div id="obj-96197" class="subnavbar-inner">
                 <div id="obj-35393" class="toolbar firebase-virtual-list-searchbar">
                   <form id="search-obj-35393" data-search-container="#virtual-list-obj-11435" data-search-item="li" class="searchbar searchbar-init">
@@ -116,33 +116,37 @@
               </div>
             </div>
           </div>
-          <div id="page-contents-o-40454" class="page-content bg-white">  
+          <div id="page-contents-o-40454" class="page-content bg-white">
+            <a id="obj-39956" class="col button firebase-action-button button-round button-large btn-firebase-filter" role="button" data-filter-field="" data-filter-operator="==" data-filter-value="" data-order-field="nameapp" data-order-way="asc" data-limit="0" data-user-data="false" data-filter-virtuallist="virtual-list-obj-11435">
+              <i class="f7-icons">arrow_up_arrow_down
+              </i>A-Z
+            </a>
             <div id="obj-11435" class="firebase-virtual-list">
               <div id="virtual-list-obj-11435" class="list virtual-list searchbar-found firebase-virtual-list-content" data-collection="SongsCollection" data-filter-field="" data-filter-operator="" data-filter-value="" data-order-field="" data-order-way="asc" data-limit="0" data-user-data="false" data-detail="song_detail">
                 <div id="virtual-list-obj-11435-template" class="virtuallist-template" data-line-height="30">
                   <li id="li_obj-11435">
-                    <div id="obj-26653" class="row pb-1">
+                    <div id="obj-26653" class="row pb-1 bg-white">
                       <div id="col-26554" class="col-25 ">
-                        <div id="obj-15537" class="firebase-field m-1 firebase-img img-zoom embed-responsive embed-responsive-16by9">
-                          <div class="embed-responsive-item" id="img-obj-15537" data-firebase-field="song_cover" style="background-image:url({{song_cover}});">
+                        <div id="obj-15537" class="firebase-field firebase-img embed-responsive embed-responsive-1by1 bg-transparent">
+                          <div class="embed-responsive-item" id="img-obj-15537" data-firebase-field="iconapp" style="background-image:url({{iconapp}});">
                           </div>
                         </div>
                       </div>
                       <div id="col-30776" class="col-75">
                         <div id="obj-43046" class="firebase-field font-weight-bold ml-2 mt-1" data-firebase-field="nameapp">
-                          <p id="p-obj-43046">{{nameapp}}
+                          <p id="p-obj-43046" class="">{{nameapp}}
                           </p> 
                         </div>
                         <div id="obj-13262" class="firebase-field ml-2 mb-2" data-firebase-field="version">
-                          <p id="p-obj-13262">{{version}}
+                          <p id="p-obj-13262" class="">{{version}}
                           </p> 
                         </div>
-                        <div id="obj-13449" class="flexbox display-flex flex-row align-items-center flex-nowrap ml-2">
-                          <a id="obj-51318" class="col button firebase-action-button btn-firebase-delete" role="button" data-confirm-message="Delete this Record?" data-index="{{dataindex}}" data-key="{{uid}}">Delete
+                        <div id="obj-13449" class="flexbox display-flex flex-row align-items-center flex-nowrap ml-2 bg-transparent">
+                          <a id="obj-51318" class="col button firebase-action-button btn-firebase-delete bg-danger rounded text-primary" role="button" data-confirm-message="Delete this Record?" data-index="{{dataindex}}" data-key="{{uid}}">Delete
                           </a>
-                          <a id="obj-85377" class="col button firebase-action-button ml-1 btn-firebase-page" role="button" data-confirm-message="" data-target="song_edit" data-index="{{dataindex}}" data-key="{{uid}}">Edit
+                          <a id="obj-85377" class="col button firebase-action-button ml-1 btn-firebase-page bg-warning rounded text-primary" role="button" data-confirm-message="" data-target="song_edit" data-index="{{dataindex}}" data-key="{{uid}}">Edit
                           </a>
-                          <a id="obj-63861" class="col button firebase-action-button ml-1 btn-firebase-page" role="button" data-confirm-message="" data-target="song_detail" data-index="{{dataindex}}" data-key="{{uid}}">View
+                          <a id="obj-63861" class="col button firebase-action-button ml-1 btn-firebase-page bg-success text-primary" role="button" data-confirm-message="" data-target="song_detail" data-index="{{dataindex}}" data-key="{{uid}}">View
                           </a>
                         </div>
                       </div>
@@ -190,10 +194,6 @@
                     <div class="block custom-block">
                         <button type="submit" class="col button button-raised button-fill  submit_firebase-signin"
                             id="submit_firebase-signin" data-translate="signin">Sign In</button>
-                    </div>
-                    <div class="block custom-block">
-                        <button class="col button button-raised firebase_register" data-translate="register"
-                            href="#">Register</button>
                     </div>
                     <div class="block custom-block text-center mt-3">
                         <a class="link firebase_resetpasswword" data-translate="resetpassword" href="#"><small>Reset my
@@ -245,75 +245,6 @@
         </div>
     </div>
 </div>
-
-<div class="popup popup-tablet-fullscreen register-screen">
-    <div class="view">
-        <div class="page">
-            <div class="page-content login-screen-content">
-                <div class="login-screen-title">AmSign ADMIN</div>
-                <div class="block text-center">
-                    
-                    <h1 data-translate="register">Register</h1>
-                </div>
-                <form id="firebase-register-form" name="firebase-register-form" class="list firebase-register-form ">
-                    <ul>
-                        <li class="item-content item-input">
-                            <div class="item-inner">
-                                <div class="item-title item-label" data-translate="email">email</div>
-                                <div class="item-input-wrap">
-                                    <input id="firebase_register_email" name="firebase_register_email"
-                                        class="firebase_register_email" type="email" required
-                                        data-translate="enteryouremail" placeholder="Enter your email" maxlength="255">
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item-content item-input">
-                            <div class="item-inner">
-                                <div class="item-title item-label" data-translate="displayname">Display Name</div>
-                                <div class="item-input-wrap">
-                                    <input id="firebase_register_displayname" name="firebase_register_displayname"
-                                        class="firebase_register_displayname" type="text" required
-                                        data-translate="enteryourname" placeholder="Enter your Name" maxlength="255">
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item-content item-input">
-                            <div class="item-inner">
-                                <div class="item-title item-label" data-translate="password">Password</div>
-                                <div class="item-input-wrap">
-                                    <input id="firebase_register_password" name="firebase_register_password"
-                                        class="firebase_register_password" type="password" required
-                                        data-translate="enteryourpassword" placeholder="Enter your Password" maxlength="255">
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item-content item-input">
-                            <div class="item-inner">
-                                <div class="item-title item-label" data-translate="passwordverification">Password
-                                    Verification</div>
-                                <div class="item-input-wrap">
-                                    <input id="firebase_register_password_verification"
-                                        name="firebase_register_password_verification"
-                                        class="firebase_register_password_verification" type="password" required
-                                        data-translate="verifyyourpassword" placeholder="Verify your Password" maxlength="255">
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="block custom-block">
-                        <button type="submit" class="button button-raised button-fill submit_firebase-resetpw"
-                            id="submit_firebase-resetpw" data-translate="register">Register</button>
-                    </div>
-                </form>
-                <div class="block custom-block">
-                    <button class="button button-raised popup-close" data-translate="close">Close</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 <div class="popup popup-tablet-fullscreen profile-screen">
     <div class="view">
         <div class="page">
@@ -408,7 +339,7 @@
   <script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.2.0/firebase-storage.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.2.0/firebase-messaging.js"></script>
   <script> 
-    const firebaseStoragePath="userprofile";
+    const firebaseStoragePath="images";
     const firebaseImgMaxSize=1;
     const firebaseDocMaxSize=5;
     const firebaseUseExtendedUserData="false";
