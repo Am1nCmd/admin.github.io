@@ -12,7 +12,7 @@ var mediaRoot='./db/dbassets/';
 var gtimeOut=6000;
 var gCrossDomain=false;
 var gAuthMode=0;
-var gHomeScreen="PGRpdiBjbGFzcz0icG9wdXAiPjxkaXYgY2xhc3M9ImJsb2NrIGN1c3RvbS1ibG9jayB0ZXh0LWNlbnRlciI+PGgyPkFtU2lnbiBBRE1JTjwvaDI+PGgyPjwvaDI+PHAgY2xhc3M9Im1iLTUiIHN0eWxlPSJmb250LXNpemU6MTdweDsiID48L3A+PC9kaXY+PC9kaXY+";
+var gHomeScreen="PGRpdiBjbGFzcz0icG9wdXAiPjxkaXYgY2xhc3M9ImJsb2NrIGN1c3RvbS1ibG9jayB0ZXh0LWNlbnRlciI+PGgyPkFtU2lnbiBBRE1JTjwvaDI+PGltZyBzcmM9Ii4vaW1nL2FwcGxlLXRvdWNoLWljb24tMTIweDEyMC5wbmciPjwvaW1nPjxoMj48L2gyPjxwIGNsYXNzPSJtYi01IiBzdHlsZT0iZm9udC1zaXplOjE3cHg7IiA+PC9wPjwvZGl2PjwvZGl2Pg==";
 var dataTheme='.color-theme-red';
 var dataCustomColor=null;
 var dataFill=true;
@@ -27,17 +27,17 @@ var routes = [
 },
 {
     path: '/newrecord_page/',
-    url: './pages/newrecord_page.html?r=95155',
+    url: './pages/newrecord_page.html?r=90649',
     name: 'newrecord_page',
 },
 {
     path: '/song_detail/',
-    url: './pages/song_detail.html?r=62898',
+    url: './pages/song_detail.html?r=54340',
     name: 'song_detail',
 },
 {
     path: '/song_edit/',
-    url: './pages/song_edit.html?r=22535',
+    url: './pages/song_edit.html?r=22083',
     name: 'song_edit',
 },
 {
