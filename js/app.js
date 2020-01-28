@@ -15,7 +15,7 @@ var gAuthMode=0;
 var gHomeScreen="PGRpdiBjbGFzcz0icG9wdXAiPjxkaXYgY2xhc3M9ImJsb2NrIGN1c3RvbS1ibG9jayB0ZXh0LWNlbnRlciI+PGgyPkFtU2lnbiBBRE1JTjwvaDI+PGgyPjwvaDI+PHAgY2xhc3M9Im1iLTUiIHN0eWxlPSJmb250LXNpemU6MTdweDsiID48L3A+PC9kaXY+PC9kaXY+";
 var dataTheme='.color-theme-red';
 var dataCustomColor=null;
-var dataFill=false;
+var dataFill=true;
 
 
 var $ = Dom7; 
@@ -27,17 +27,17 @@ var routes = [
 },
 {
     path: '/newrecord_page/',
-    url: './pages/newrecord_page.html?r=51166',
+    url: './pages/newrecord_page.html?r=95155',
     name: 'newrecord_page',
 },
 {
     path: '/song_detail/',
-    url: './pages/song_detail.html?r=18910',
+    url: './pages/song_detail.html?r=62898',
     name: 'song_detail',
 },
 {
     path: '/song_edit/',
-    url: './pages/song_edit.html?r=67548',
+    url: './pages/song_edit.html?r=22535',
     name: 'song_edit',
 },
 {

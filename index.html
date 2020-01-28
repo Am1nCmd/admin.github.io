@@ -60,7 +60,7 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 
-<body>  <div id="app" class="color-theme-red">
+<body>  <div id="app" class="color-theme-fill color-theme-red">
     <div class="panel-backdrop">
     </div>
     <div id="panel-left" class="panel panel-left panel-init panel-cover" data-swipe="true">    
@@ -124,7 +124,7 @@
             <div id="obj-11435" class="firebase-virtual-list">
               <div id="virtual-list-obj-11435" class="list virtual-list searchbar-found firebase-virtual-list-content" data-collection="SongsCollection" data-filter-field="" data-filter-operator="" data-filter-value="" data-order-field="" data-order-way="asc" data-limit="0" data-user-data="false" data-detail="song_detail">
                 <div id="virtual-list-obj-11435-template" class="virtuallist-template" data-line-height="30">
-                  <li id="li_obj-11435">
+                  <li id="li_obj-11435" class="">
                     <div id="obj-26653" class="row pb-1 bg-white">
                       <div id="col-26554" class="col-25 ">
                         <div id="obj-15537" class="firebase-field firebase-img embed-responsive embed-responsive-1by1 bg-transparent">
@@ -154,6 +154,10 @@
                   </li>
                 </div>
               </div>
+            </div>
+            <div id="obj-50116" class="block custom-block block-text inset medium-inset text-center m-0 text-muted">
+              <p id="obj-47360" class="">© Copyright 2020- Ams1gn <br>Design by eskaseptian
+              </p>
             </div>
           </div>
         </div>                    
@@ -194,6 +198,10 @@
                     <div class="block custom-block">
                         <button type="submit" class="col button button-raised button-fill  submit_firebase-signin"
                             id="submit_firebase-signin" data-translate="signin">Sign In</button>
+                    </div>
+                    <div class="block custom-block">
+                        <button class="col button button-raised firebase_register" data-translate="register"
+                            href="#">Register</button>
                     </div>
                     <div class="block custom-block text-center mt-3">
                         <a class="link firebase_resetpasswword" data-translate="resetpassword" href="#"><small>Reset my
@@ -245,6 +253,75 @@
         </div>
     </div>
 </div>
+
+<div class="popup popup-tablet-fullscreen register-screen">
+    <div class="view">
+        <div class="page">
+            <div class="page-content login-screen-content">
+                <div class="login-screen-title">AmSign ADMIN</div>
+                <div class="block text-center">
+                    
+                    <h1 data-translate="register">Register</h1>
+                </div>
+                <form id="firebase-register-form" name="firebase-register-form" class="list firebase-register-form ">
+                    <ul>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="email">email</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_email" name="firebase_register_email"
+                                        class="firebase_register_email" type="email" required
+                                        data-translate="enteryouremail" placeholder="Enter your email" maxlength="255">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="displayname">Display Name</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_displayname" name="firebase_register_displayname"
+                                        class="firebase_register_displayname" type="text" required
+                                        data-translate="enteryourname" placeholder="Enter your Name" maxlength="255">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="password">Password</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_password" name="firebase_register_password"
+                                        class="firebase_register_password" type="password" required
+                                        data-translate="enteryourpassword" placeholder="Enter your Password" maxlength="255">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="passwordverification">Password
+                                    Verification</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_password_verification"
+                                        name="firebase_register_password_verification"
+                                        class="firebase_register_password_verification" type="password" required
+                                        data-translate="verifyyourpassword" placeholder="Verify your Password" maxlength="255">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="block custom-block">
+                        <button type="submit" class="button button-raised button-fill submit_firebase-resetpw"
+                            id="submit_firebase-resetpw" data-translate="register">Register</button>
+                    </div>
+                </form>
+                <div class="block custom-block">
+                    <button class="button button-raised popup-close" data-translate="close">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div class="popup popup-tablet-fullscreen profile-screen">
     <div class="view">
         <div class="page">
